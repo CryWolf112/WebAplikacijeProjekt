@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "hr">
+	<head>
+		<title>movieInfo</title>
+		<meta http-equiv = "Content-type" Content = "text/html;charset=UTF-8"/>
+		<meta name="description" content="Informacije o svijetu medija">
+		<meta name="keywords" content="">
+		<meta name="author" content="Borna Fürst">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" media="screen" href="CSS/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+		<body>
+			<div class="header">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+				<div class="navbar-brand-img"></div>
+				  <a class="navbar-brand">movieInfo</a>
+				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="true">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div id="navb" class="navbar-collapse collapse hide">
+					<ul class="navbar-nav">
+					  <li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="news.html">News</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="movies.html">Movies</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="shows.html">TV Shows</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="about.html">About Us</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					  </li>
+					</ul>
+				  </div>
+				</nav>
+			</div>
+			<div class="center">
+			<div class="sliders">
+				<div class="slideshow-container" onmouseover="hoverActive()" onmouseout="hoverOut()">
+		  <div class="slideshow">
+			<div class="slide act"><img src="img/TheQueensGambit-cover.jpg"></div>
+			<div class="slide"><img src="img/Cursed-cover.jpg"></div>
+			<div class="slide"><img src="img/GrandArmy-cover.jpg"></div>
+			<div class="slide"><img src="img/Greenland-cover.jpg"></div>
+			<div class="slide last-slide"><img src="img/EmilyInParis-cover.jpg"></div>
+		  </div>
+		  <div class="controls">
+			<a class="prev" onmousedown="mouseHoldPrev()" onmouseup="mouseHoldOut()">❮</a>
+			<a class="next" onmousedown="mouseHoldNext()" onmouseup="mouseHoldOut()">❯</a>
+		  </div>
+		</div>
+			<div class="right-upper-side">
+				<a href="https://www.netflix.com" target="_blank">
+					<div id="right-side-item"><img src="img/netflix.png"></div>
+				</a>
+				<a href="https://www.hbo.com" target="_blank">
+					<div id="right-side-item"><img src="img/hbo.png"></div>
+				</a>
+				<a href="https://www.evotv.hr" target="_blank">
+					<div id="right-side-item"><img src="img/evo.png"></div>
+				</a>
+			</div>
+		</div>
+		</div>
+			<footer>
+				<div class="copyright">
+					<div class="copyright-img"></div>
+					<p>Copyright by Borna Fürst</p>
+				</div>
+			</footer>
+			<script src="js/slideshow-left.js"></script>
+		</body>
+</html>
